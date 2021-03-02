@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="726.0" prefWidth="465.0" style="-fx-border-color: BLACK; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <center>
+      <GridPane gridLinesVisible="true" prefHeight="619.0" prefWidth="466.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="232.39999999999998" minHeight="10.0" prefHeight="181.19998779296873" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="232.39999999999998" minHeight="10.0" prefHeight="181.19998779296873" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="232.39999999999998" minHeight="10.0" prefHeight="181.19998779296873" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="232.39999999999998" minHeight="10.0" prefHeight="181.19998779296873" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="232.39999999999998" minHeight="10.0" prefHeight="181.19998779296873" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="232.39999999999998" minHeight="10.0" prefHeight="181.19998779296873" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="232.39999999999998" minHeight="10.0" prefHeight="181.19998779296873" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="232.39999999999998" minHeight="10.0" prefHeight="181.19998779296873" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="232.39999999999998" minHeight="10.0" prefHeight="181.19998779296873" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="232.39999999999998" minHeight="10.0" prefHeight="181.19998779296873" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="9">
+               <children>
+                  <Label fx:id="correctLoc0" prefHeight="31.0" prefWidth="96.0" text="Rätt plats:">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="correctDig0" prefHeight="31.0" prefWidth="96.0" text="Rätt valör:">
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="8">
+               <children>
+                  <Label fx:id="correctLoc1" prefHeight="31.0" prefWidth="96.0" text="Rätt plats:">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="correctDig1" prefHeight="31.0" prefWidth="96.0" text="Rätt valör:">
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="7">
+               <children>
+                  <Label fx:id="correctLoc2" prefHeight="31.0" prefWidth="96.0" text="Rätt plats:">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="correctDig2" prefHeight="31.0" prefWidth="96.0" text="Rätt valör:">
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="6">
+               <children>
+                  <Label fx:id="correctLoc3" prefHeight="31.0" prefWidth="96.0" text="Rätt plats:">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="correctDig3" prefHeight="31.0" prefWidth="96.0" text="Rätt valör:">
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="5">
+               <children>
+                  <Label fx:id="correctLoc4" prefHeight="31.0" prefWidth="96.0" text="Rätt plats:">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="correctDig4" prefHeight="31.0" prefWidth="96.0" text="Rätt valör:">
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="4">
+               <children>
+                  <Label fx:id="correctLoc5" prefHeight="31.0" prefWidth="96.0" text="Rätt plats:">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="correctDig5" prefHeight="31.0" prefWidth="96.0" text="Rätt valör:">
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="3">
+               <children>
+                  <Label fx:id="correctLoc6" prefHeight="31.0" prefWidth="96.0" text="Rätt plats:">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="correctDig6" prefHeight="31.0" prefWidth="96.0" text="Rätt valör:">
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="2">
+               <children>
+                  <Label fx:id="correctLoc7" prefHeight="31.0" prefWidth="96.0" text="Rätt plats:">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="correctDig7" prefHeight="31.0" prefWidth="96.0" text="Rätt valör:">
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="1">
+               <children>
+                  <Label fx:id="correctLoc8" prefHeight="31.0" prefWidth="96.0" text="Rätt plats:">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="correctDig8" prefHeight="31.0" prefWidth="96.0" text="Rätt valör:">
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="correctLoc9" prefHeight="31.0" prefWidth="96.0" text="Rätt plats:">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="correctDig9" prefHeight="31.0" prefWidth="96.0" text="Rätt valör:">
+                     <padding>
+                        <Insets bottom="5.0" left="3.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+            <Label fx:id="try0_0" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try0_1" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="2" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try0_2" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="3" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try0_3" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="4" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try1_0" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try1_1" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try1_2" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="3" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try1_3" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="4" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try2_0" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try2_1" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try2_2" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try2_3" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="4" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try3_0" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try3_1" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try3_2" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try3_3" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try4_0" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try4_1" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try4_2" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try4_3" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try5_0" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try5_1" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try5_2" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try5_3" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try6_0" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try6_1" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try6_2" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try6_3" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try7_0" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try7_1" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try7_2" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try7_3" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try8_0" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try8_1" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try8_2" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try8_3" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try9_0" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try9_1" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="2">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try9_2" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="3">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="try9_3" alignment="CENTER" prefHeight="59.0" prefWidth="94.0" GridPane.columnIndex="4">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+   </center>
+   <bottom>
+      <GridPane gridLinesVisible="true" prefHeight="64.0" prefWidth="456.0" style="-fx-background-color: CYAN;" BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="85.59999904632568" minHeight="10.0" prefHeight="73.6" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="checkButton" mnemonicParsing="false" onAction="#check" prefHeight="86.0" prefWidth="91.0" style="-fx-background-color: GREEN; -fx-border-color: BLACK; -fx-border-width: 3;" text="Start Game">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="4">
+               <children>
+                  <Label fx:id="label4" alignment="CENTER" prefHeight="27.0" prefWidth="92.0" text="1">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="plus4" mnemonicParsing="false" onAction="#plus" prefHeight="37.0" prefWidth="48.0" style="-fx-border-color: BLACK;" text="+">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="minus4" mnemonicParsing="false" onAction="#minus" prefHeight="37.0" prefWidth="48.0" style="-fx-border-color: BLACK;" text="-">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="91.0" GridPane.columnIndex="1">
+               <children>
+                  <Label fx:id="label1" alignment="CENTER" prefHeight="26.0" prefWidth="91.0" text="1">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="plus1" mnemonicParsing="false" onAction="#plus" prefHeight="37.0" prefWidth="48.0" style="-fx-border-color: BLACK;" text="+">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="minus1" mnemonicParsing="false" onAction="#minus" prefHeight="37.0" prefWidth="48.0" style="-fx-border-color: BLACK;" text="-">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2">
+               <children>
+                  <Label fx:id="label2" alignment="CENTER" prefHeight="27.0" prefWidth="92.0" text="1">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="plus2" mnemonicParsing="false" onAction="#plus" prefHeight="37.0" prefWidth="48.0" style="-fx-border-color: BLACK;" text="+">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="minus2" mnemonicParsing="false" onAction="#minus" prefHeight="37.0" prefWidth="48.0" style="-fx-border-color: BLACK;" text="-">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3">
+               <children>
+                  <Label fx:id="label3" alignment="CENTER" prefHeight="27.0" prefWidth="92.0" text="1">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="plus3" mnemonicParsing="false" onAction="#plus" prefHeight="37.0" prefWidth="48.0" style="-fx-border-color: BLACK;" text="+">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="minus3" mnemonicParsing="false" onAction="#minus" prefHeight="37.0" prefWidth="48.0" style="-fx-border-color: BLACK;" text="-">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </GridPane>
+   </bottom>
+   <top>
+      <Label fx:id="codeLabel" alignment="CENTER" prefHeight="28.0" prefWidth="460.0" style="-fx-background-color: Green;" text="NPC code" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </top>
+</BorderPane>
